@@ -34,7 +34,7 @@ It is available at [Springer Nature Figshare](https://springernature.figshare.co
 ### Backend Setup
 1. Clone the repository:
     ```bash
-    git clone https://github.com/SuhasMaddi29/AMS691-ClinicalNotes-GPT.git
+    git clone https://github.com/SuhasMaddi29/MediScribe-GPT.git
     cd AMS691-ClinicalNotes-GPT
     ```
 2. Export the required API keys:
