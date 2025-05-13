@@ -4,3 +4,4 @@ python-docx
 anthropic
 google-generativeai
 assemblyai
+python-multipart

@@ -70,6 +70,40 @@ It is available at [Springer Nature Figshare](https://springernature.figshare.co
     ```
 3. Access the frontend at [http://localhost:5173/](http://localhost:5173/).
 
+## Docker Setup
+
+### Prerequisites
+- Docker
+- Docker Compose
+
+### Using Docker Compose
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/SuhasMaddi29/MediScribe-GPT.git
+    cd MediScribe-GPT
+    ```
+
+2. Create a `.env` file with your API keys:
+    ```bash
+    echo "GEMINI_API_KEY=your_gemini_api_key" > .env
+    echo "ANTHROPIC_API_KEY=your_anthropic_api_key" >> .env
+    echo "ASSEMBLYAI_API_KEY=your_assemblyai_api_key" >> .env
+    ```
+
+3. Build and run the services:
+    ```bash
+    docker-compose up -d
+    ```
+
+4. Access the application:
+   - Frontend: [http://localhost:5173/](http://localhost:5173/)
+   - Backend API: [http://localhost:8000/](http://localhost:8000/)
+
+5. To stop the services:
+    ```bash
+    docker-compose down
+    ```
+
 ## Usage
 1. Upload an example file (audio files of doctor-patient conversations).
 2. Wait for the processing to complete.

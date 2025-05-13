@@ -1,3 +1,5 @@
 .DS_Store
 __pycache__/docreport.cpython-313.pyc
 tmp/
+.env
+.env.local
